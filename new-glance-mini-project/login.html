@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>NEWS AT GLANCE</title>
+
+    <link href="newsglance/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/newsglance.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">NEWS AT GLANCE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+	<div class="container">
+	<div class="row">
+        <div class="col-md-12">
+            <form action="" method="post" id="fileForm" role="form">
+            <fieldset><legend class="text-center">Log into your existing account, don't have one? <a href="register.html">Register here</a></legend>
+            <div class="form-group">
+                <label for="email"><span class="req"></span> Email Address: </label> 
+                    <input class="form-control" required type="text" name="email" id = "email" />   
+                        <div class="status" id="status"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="password"><span class="req"></span> Password: </label>
+                    <input required name="password" type="password" class="form-control inputpass" minlength="4" maxlength="16" /> </p>
+            </div>
+
+
+            <div class="form-group">
+                <input class="btn btn-success" type="submit" name="submit_reg" value="Login">
+            </div>
+
+            </fieldset>
+            </form>
+        </div>
+   
+
+	</div>
+</div>
+
+    <script src="newsglance/jquery/jquery.min.js"></script>
+    <script src="newsglance/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
